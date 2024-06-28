@@ -1,111 +1,89 @@
 ## CLASE 11 Actividad en Python
-<sub>
-1. Abrir la terminal de Git Bash o terminal en Linux, debe ser como administrador en Window</sub>
-<sub>
-2. Creamos una carpeta o directorio: </sub>
 
-```sh
-mkdir python-final
-```
-<sub>
-3. Entramos en ella: </sub>
+1. Abrir la terminal de Git Bash o terminal en Linux, debe ser como administrador en Windows.
 
-```sh
-cd python-final
-```
-<sub>
-4. Iniciamos el repositorio:</sub>
+2. Crear una carpeta o directorio:
 
-```sh
-git init
-```
-<sub>
-5. Creamos un archivo:</sub>
+    ```sh
+    mkdir python-final
+    ```
 
-```sh
-touch finales.py
-```
-<sub>
-6. Abrimos VSC:</sub>
+3. Entrar en ella:
 
-```sh
-code .
-```
-<sub>
-7. En terminal ingresamos el comando para saber la versión de Python que tenemos instalada:</sub>
+    ```sh
+    cd python-final
+    ```
 
-```sh
-python -V
-python3 -V
-```
-<sub>
-8. Creamos el entorno virtual en Python:</sub>
+4. Iniciar el repositorio:
 
-```sh
-python3 -m venv venv #Creamos el entorno virtual
-```
-<sub>
-9. Activamos el entorno virtual:</sub>
+    ```sh
+    git init
+    ```
 
-```sh
-source venv/bin/activate #Activamos el entorno virtual en Linux
-venv/scripts/activate #En windows
-```
-<sub>
-10. Hacemos actualización del pip de Python</sub>
+5. Crear un archivo:
 
-```sh
-python3 -m pip install --upgrade pip #Actualizamos el pip
-```
-<sub>
-¿Qué es pip?
+    ```sh
+    touch finales.py
+    ```
+
+6. Abrir VSC:
+
+    ```sh
+    code .
+    ```
+
+7. En terminal, ingresar el comando para saber la versión de Python que tenemos instalada:
+
+    ```sh
+    python -V
+    python3 -V
+    ```
+
+8. Crear el entorno virtual en Python:
+
+    ```sh
+    python3 -m venv venv # Crear el entorno virtual
+    ```
+
+9. Activar el entorno virtual:
+
+    ```sh
+    source venv/bin/activate # Activar el entorno virtual en Linux
+    venv/scripts/activate # En Windows
+    ```
+
+10. Hacer actualización del pip de Python:
+
+    ```sh
+    python3 -m pip install --upgrade pip # Actualizar el pip
+    ```
+
+### ¿Qué es pip?
+
 pip es un administrador de paquetes para Python. Es la herramienta estándar para instalar, actualizar y eliminar paquetes Python de PyPI (Python Package Index), el repositorio oficial de paquetes para Python. Pip facilita la gestión de las dependencias de tu proyecto Python, lo que te permite concentrarte en el desarrollo de tu código sin preocuparte por la instalación manual de bibliotecas y módulos.
-</sub>
 
-<sub>
-Características principales de pip:
-</sub>
+### Características principales de pip:
 
-<sub>
-Instalación de paquetes: Pip te permite instalar paquetes Python desde PyPI usando comandos simples. Puedes instalar un paquete específico por su nombre, o instalar los requisitos enumerados en un archivo requirements.txt.
-Actualización de paquetes: Pip te permite actualizar paquetes Python a la última versión disponible en PyPI. Esto es importante para asegurarte de que estás utilizando las últimas correcciones de errores y mejoras de seguridad.
-Desinstalación de paquetes: Pip te permite desinstalar paquetes Python que ya no necesitas. Esto puede ser útil para liberar espacio en disco o para evitar conflictos con otros paquetes.
-Manejo de dependencias: Pip puede resolver automáticamente las dependencias de un paquete, lo que significa que instalará automáticamente todos los paquetes necesarios para que el paquete principal funcione correctamente.
-Creación de paquetes: Pip te permite crear y distribuir tus propios paquetes Python. Puedes subir tus paquetes a PyPI para que otros usuarios puedan instalarlos.
-</sub>
+- **Instalación de paquetes**: Pip te permite instalar paquetes Python desde PyPI usando comandos simples. Puedes instalar un paquete específico por su nombre, o instalar los requisitos enumerados en un archivo `requirements.txt`.
+- **Actualización de paquetes**: Pip te permite actualizar paquetes Python a la última versión disponible en PyPI. Esto es importante para asegurarte de que estás utilizando las últimas correcciones de errores y mejoras de seguridad.
+- **Desinstalación de paquetes**: Pip te permite desinstalar paquetes Python que ya no necesitas. Esto puede ser útil para liberar espacio en disco o para evitar conflictos con otros paquetes.
+- **Manejo de dependencias**: Pip puede resolver automáticamente las dependencias de un paquete, lo que significa que instalará automáticamente todos los paquetes necesarios para que el paquete principal funcione correctamente.
+- **Creación de paquetes**: Pip te permite crear y distribuir tus propios paquetes Python. Puedes subir tus paquetes a PyPI para que otros usuarios puedan instalarlos.
 
-<sub>
-¿Por qué actualizar pip?
-</sub>
+### ¿Por qué actualizar pip?
 
-<sub>
-Es importante actualizar pip por varias razones: </sub>
+Es importante actualizar pip por varias razones:
 
-<sub>
-Seguridad: Las actualizaciones de pip a menudo incluyen correcciones de errores de seguridad que pueden proteger tu sistema de vulnerabilidades.
-Nuevas funciones: Las actualizaciones de pip a menudo incluyen nuevas funciones que pueden hacer que la administración de paquetes sea más fácil y eficiente.
-Compatibilidad: Las actualizaciones de pip pueden mejorar la compatibilidad con las nuevas versiones de Python y otros paquetes.
-Corrección de errores: Las actualizaciones de pip pueden corregir errores que pueden estar causando problemas con la instalación o actualización de paquetes.
+- **Seguridad**: Las actualizaciones de pip a menudo incluyen correcciones de errores de seguridad que pueden proteger tu sistema de vulnerabilidades.
+- **Nuevas funciones**: Las actualizaciones de pip a menudo incluyen nuevas funciones que pueden hacer que la administración de paquetes sea más fácil y eficiente.
+- **Compatibilidad**: Las actualizaciones de pip pueden mejorar la compatibilidad con las nuevas versiones de Python y otros paquetes.
+- **Corrección de errores**: Las actualizaciones de pip pueden corregir errores que pueden estar causando problemas con la instalación o actualización de paquetes.
+
 En general, se recomienda actualizar pip regularmente para asegurarse de que está utilizando la última versión y aprovechar las últimas funciones y mejoras de seguridad.
-</sub>
 
-<sub>
-Cómo actualizar pip
-Actualizar pip es un proceso sencillo. Puedes usar el siguiente comando:</sub>
+### Cómo actualizar pip
+
+Actualizar pip es un proceso sencillo. Puedes usar el siguiente comando:
 
 ```sh
 python -m pip install --upgrade pip
-```
-<sub>
-Este comando utilizará la versión actual de pip para descargar e instalar la última versión de sí mismo.</sub>
-
-<sub>
-También puedes usar un administrador de paquetes de terceros para actualizar pip. Por ejemplo, en Windows, puedes usar Chocolatey:</sub>
-
-<sub>
-choco install pip -f https://chocolatey.org/public/python
-Este comando instalará Chocolatey si aún no está instalado, y luego lo usará para instalar o actualizar pip.</sub>
-
-<sub>
-Conclusión
-Pip es una herramienta esencial para cualquier desarrollador de Python. Al mantener pip actualizado, te aseguras de que estás utilizando la última versión y aprovechando las últimas funciones y mejoras de seguridad. La actualización de pip es un proceso sencillo que solo toma unos pocos minutos.</sub>
