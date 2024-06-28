@@ -60,15 +60,18 @@ python3 -m pip install --upgrade pip #Actualizamos el pip
 <sub>
 ¿Qué es pip?
 pip es un administrador de paquetes para Python. Es la herramienta estándar para instalar, actualizar y eliminar paquetes Python de PyPI (Python Package Index), el repositorio oficial de paquetes para Python. Pip facilita la gestión de las dependencias de tu proyecto Python, lo que te permite concentrarte en el desarrollo de tu código sin preocuparte por la instalación manual de bibliotecas y módulos.
-
+</sub>
+<sub>
 Características principales de pip:
-
+</sub>
+<sub>
 Instalación de paquetes: Pip te permite instalar paquetes Python desde PyPI usando comandos simples. Puedes instalar un paquete específico por su nombre, o instalar los requisitos enumerados en un archivo requirements.txt.
 Actualización de paquetes: Pip te permite actualizar paquetes Python a la última versión disponible en PyPI. Esto es importante para asegurarte de que estás utilizando las últimas correcciones de errores y mejoras de seguridad.
 Desinstalación de paquetes: Pip te permite desinstalar paquetes Python que ya no necesitas. Esto puede ser útil para liberar espacio en disco o para evitar conflictos con otros paquetes.
 Manejo de dependencias: Pip puede resolver automáticamente las dependencias de un paquete, lo que significa que instalará automáticamente todos los paquetes necesarios para que el paquete principal funcione correctamente.
 Creación de paquetes: Pip te permite crear y distribuir tus propios paquetes Python. Puedes subir tus paquetes a PyPI para que otros usuarios puedan instalarlos.
-
+</sub>
+</sub>
 ¿Por qué actualizar pip?
 Es importante actualizar pip por varias razones:
 
